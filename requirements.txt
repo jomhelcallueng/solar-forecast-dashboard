@@ -1,9 +1,6 @@
 streamlit==1.28.0
-pandas==2.1.0
-numpy==1.24.0
-neuralprophet==1.0.0  # Try version 1.0.0
+pandas==2.0.3  # Downgrade pandas
+numpy==1.23.5  # Downgrade numpy
+neuralprophet==0.6.1  # Older stable version
 plotly==5.17.0
 matplotlib==3.7.0
-torch==2.1.0  # PyTorch is required
-torchvision==0.16.0
-torchaudio==2.1.0
