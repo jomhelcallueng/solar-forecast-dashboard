@@ -1,6 +1,7 @@
 streamlit==1.28.0
-pandas==2.0.3  # Downgrade pandas
-numpy==1.23.5  # Downgrade numpy
-neuralprophet==0.6.1  # Older stable version
+pandas==2.0.3
+numpy==1.23.5
+neuralprophet==0.6.1
 plotly==5.17.0
 matplotlib==3.7.0
+setuptools==69.0.3  # Add this line
