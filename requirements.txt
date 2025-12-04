@@ -1,5 +1,9 @@
 streamlit==1.28.0
-pandas==1.5.3
-numpy==1.23.5
-neuralprophet==0.6.1
+
+# Python 3.13–compatible stack
+numpy>=2.1.0,<3.0.0
+pandas==2.2.3
+neuralprophet==0.9.0   # or latest available on PyPI
+torch>=2.0.0,<3.0.0    # neuralprophet requires a reasonably recent torch
+
 setuptools>=65.0.0
