@@ -162,7 +162,8 @@ st.markdown("""
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv('/Users/jomhel/20251110_Lallo_hourly.csv')
+    url = "https://raw.githubusercontent.com/jomhelcallueng/solar-forecast-dashboard/refs/heads/main/20251110_Lallo_hourly.csv"
+    df = pd.read_csv(url)
     df = df.drop(columns=['SZA'])
     df = df.rename(columns={
         'YEAR': 'year', 'MO': 'month', 'DY': 'day', 'HR': 'hour',
