@@ -1,7 +1,7 @@
 streamlit==1.28.0
 
-numpy>=2.1.0,<3.0.0
-pandas==2.2.3          # works with Py 3.12 and 3.13
-neuralprophet==0.9.0   # supports Python <=3.12, >=3.9
+numpy==1.26.4
+pandas==2.2.3
+neuralprophet==0.9.0
 torch>=2.0.0,<3.0.0
 setuptools>=65.0.0
